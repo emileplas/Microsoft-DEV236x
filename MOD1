@@ -1,0 +1,28 @@
+#  Module 1 Required Coding Activity  
+Introduction to Python Unit 1
+
+This is an activity from the Jupyter Notebook **`Practice_MOD01_1-2_IntroPy.ipynb`** which you may have already completed.
+
+> **NOTE:** This program requires print output and code syntax used in module 1
+
+## Program: Allergy Check  
+
+1. **[ ]** get user **`input`** for categories of food eaten in the last 24 hours  
+ save in a variable called **input_test**  
+ *example input*
+ [![01 02 practice Allergy-input](https://iajupyterprodblobs.blob.core.windows.net/imagecontainer/eaten_input.gif) ](https://1drv.ms/i/s!Am_KPRosgtaij65qzFD5CGvv95-ijg)
+&nbsp;  
+2. **[ ]** print **`True`** if "dairy" is in the **input_test** string  
+**[ ]** Test the code so far  
+&nbsp;
+3. **[ ]** modify the print statement to output similar to below  
+*example output*
+[![01 02 Allergy output](https://iajupyterprodblobs.blob.core.windows.net/imagecontainer/eaten_output.gif) ](https://1drv.ms/i/s!Am_KPRosgtaij65rET-wmlpCdMX7CQ)  
+Test the code so far trying input including the string "dairy" and without  
+&nbsp;  
+
+4. **[ ]** repeat the process checking the input for "nuts", **challenge** add "Seafood" and "chocolate"  
+**[ ]** Test your code  
+&nbsp;  
+  
+5. **[ ] challenge:** make your code work for input regardless of case, e.g. - print **`True`** for "Nuts", "NuTs", "NUTS" or "nuts"  
