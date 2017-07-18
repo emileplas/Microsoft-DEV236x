@@ -1,3 +1,5 @@
+# Program: Allergy Check
+
 input_test = input("What all have you eaten in the last 24 hours?: ")
 
 # [ ] print "True" message if "dairy" is in the input or False message if not
