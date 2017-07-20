@@ -8,6 +8,7 @@ Program: Cheese Order
 - over maximum
 - under minimum
 - else within maximum and minimum give message with calculated price
+
 """ 
 
     max_amount = 100
