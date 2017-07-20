@@ -1,10 +1,10 @@
 """
 Program: fishstore()
 
-fishstore() takes 2 string arguments: fish & price
-fishstore returns a string in sentence form
-gather input for fish_entry and price_entry to use in calling fishstore()
-print the return value of fishstore()
+- fishstore() takes 2 string arguments: fish & price
+- fishstore returns a string in sentence form
+- gather input for fish_entry and price_entry to use in calling fishstore()
+- print the return value of fishstore()
 
 """
 
