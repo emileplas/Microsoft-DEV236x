@@ -1,0 +1,4 @@
+user_input = input("enter word or integer: ")
+
+while user_input == "":
+    user_input = input("enter word or integer: ")
