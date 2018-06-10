@@ -1,0 +1,44 @@
+#total function
+def numbers_input_t():
+    numbers = []
+    total = sum(numbers)
+    
+    while True:
+        num_1=input ("enter a number or Q: ")
+        if num_1.isdigit():
+            numbers.append(int(num_1))
+        elif num_1=="Q":
+            print(sum(numbers))
+            break
+        else:
+            print("this is an invalid input")
+    numbers_input_t()
+    
+#all function: shows also the variables that were given in input
+
+def numbers_input_a():
+    numbers = []
+    total = sum(numbers)
+    
+    while True:
+        num_1=input ("enter a number or Q: ")
+        if num_1.isdigit():
+            numbers.append(int(num_1))
+        elif num_1=="Q":
+            print("\nItems")
+            print("\n".join(map(str, numbers)))
+            print("\n", "Total", "\n", sum(numbers))
+            break
+        else:
+            print("this is an invalid input")
+    numbers_input_a()
+
+
+
+
+while True:
+    string_analysis=input("Do you want the total (press T) or all press (A): ")
+    if string_analysis=="T":
+        numbers_input_t()
+    elif string_analysis=="A":
+        numbers_input_a()
